@@ -1,40 +1,37 @@
 import { ConfigProvider, theme, Breadcrumb, Layout, Menu } from 'antd';
 import './App.css';
-import Resume from './component/resume';
-import AppHeader from './component/app-header';
+import './style.css';
 import Navbar from './component/app-nav';
+import Main from './component/heroMain';
+import About from './component/about';
+import { useEffect } from 'react';
+import Resume from './component/resume';
+import Contact from './component/contact';
 const { Header, Content, Footer } = Layout;
 const App = () => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
-
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  })
   return (
     <ConfigProvider theme={{
       token: {
         colorPrimary: '#ef5366',
         colorSecondary: '#a8a8a8',
+        colorInfo: "#213363",
         colorBgTextHover: "#e3e1dc",
         colorTextSecondary: "#6c757d",
         colorLineChart: '#F18247ff',
         // colorBgBase: "#F18247ff",
       },
     }}>
-      <Layout className="layout">
-        {/* <Header
-          style={{
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-            height: '100px',
-            width: '100%',
-            display: 'flex',
-            alignItems: 'center',
-            backgroundColor: "#fff"
-          }}
-        >
-          <AppHeader />
-        </Header> */}
+      <Layout className="layout" style={{ height: "100vh" }}>
+        {/* <Layout className="layout"> */}
         <Navbar />
         <Content
           style={{
@@ -42,7 +39,10 @@ const App = () => {
             backgroundColor: "#f4f0f4"
           }}
         >
-          <h1>test</h1>
+          <Main />
+          {/* <About /> */}
+          {/* <Resume /> */}
+          {/* <Contact /> */}
         </Content>
         <Footer
           style={{
