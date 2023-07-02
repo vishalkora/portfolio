@@ -3,10 +3,10 @@ import React from 'react'
 
 function Main() {
     return (
-        <header id="header">
+        <header id="header" style={{ height: "100vh" }}>
             <div class="container">
                 <h1><a href="index.html" className='text-decoration-none'>Vishal Kora</a></h1>
-                <h2 className='text-justify'>I'm a passionate <br /><span className='text-decoration-none'>Frontend Developer </span> from India</h2>
+                <h2 className='text-justify'>I'm a passionate <br /><span className='text-decoration-none'>React JS Developer </span> from India</h2>
                 <div class="social-links">
                     <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>

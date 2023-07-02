@@ -4,6 +4,11 @@ import LeftMenu from './LeftMenu'
 import RightMenu from './RightMenu'
 import { Drawer, Button, Space, Col, Row, Menu } from 'antd';
 import { AppstoreOutlined, MailOutlined, DownOutlined, CloseOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
+import ProjectOne from './projectOne';
+import ProtoType1 from './protoType1';
+import ProtoType3 from './protoType3';
+import ProtoType2 from './protoType2';
 
 class Navbar extends Component {
     state = {
@@ -14,6 +19,14 @@ class Navbar extends Component {
         this.setState({
             visible: true,
         });
+    };
+    downloadPDF = () => {
+        const fileURL = 'https://drive.google.com/file/d/1pPVQg_bDp0_s1ZEEX94OxplwIjGlt7rE/view?usp=sharing'; // Replace with the direct download link
+        const tempAnchor = document.createElement('a');
+        tempAnchor.href = fileURL;
+        tempAnchor.target = '_blank'; // Open the link in a new tab
+        tempAnchor.rel = 'noopener noreferrer'; // Set necessary security attributes
+        tempAnchor.click();
     };
 
     onClose = () => {
@@ -29,64 +42,44 @@ class Navbar extends Component {
         const isMobileView = window.innerWidth >= 768 ? true : false;
         const items = [
             {
-                label: <label className="mb-1">Navigation One <DownOutlined style={{ fontSize: '10px' }} /></label>,
+                label: <label className="mb-1">Tourwiz Projects <DownOutlined style={{ fontSize: '10px' }} /></label>,
                 key: 'mail',
                 children: [
                     {
                         type: 'group',
-                        label: 'Item 1',
+                        label: 'Tourwiz Features',
                         children: [
                             {
-                                label: "Product Engineering And Development",
+                                label: "Itinerary Builder",
                                 key: 'setting:1',
                                 children: [
                                     {
                                         type: 'group',
-                                        label: 'Item 1',
-                                        children: [
-                                            {
-                                                label: 'Product Engineering And Development',
-                                                key: 'setting:1',
-                                            },
-                                            {
-                                                label: 'Product Engineering And Development',
-                                                key: 'setting:2',
-                                            },
-                                        ],
-                                    },
-                                    {
-                                        type: 'group',
-                                        label: 'Item 2',
-                                        children: [
-                                            {
-                                                label: 'Option 3',
-                                                key: 'setting:3',
-                                            },
-                                            {
-                                                label: 'Option 4',
-                                                key: 'setting:4',
-                                            },
-                                        ],
+                                        label: <ProtoType3 />,
                                     },
                                 ],
                             },
                             {
-                                label: 'Option 2',
+                                label: 'Travel Website',
                                 key: 'setting:2',
+                                children: [
+                                    {
+                                        type: 'group',
+                                        label: <ProtoType2 />,
+                                    },
+                                ],
+
                             },
-                        ],
-                    },
-                    {
-                        type: 'group',
-                        label: 'Item 2',
-                        children: [
                             {
-                                label: 'Option 3',
+                                label: 'TourWizAI Lite',
                                 key: 'setting:3',
-                            },
-                            {
-                                label: 'Option 4',
-                                key: 'setting:4',
+                                children: [
+                                    {
+                                        type: 'group',
+                                        label: <ProtoType1 />,
+                                    },
+                                ],
+
                             },
                         ],
                     },
@@ -223,15 +216,23 @@ class Navbar extends Component {
                         <div className="menuCon">
                             <div className="leftMenu">
                                 <Space size={[8, 16]} wrap>
-                                    <Button type="link" className="navBtn" >About us</Button>
-                                    <Button type="link" className="navBtn" >Experience</Button>
-                                    <Button type="link" className="navBtn" >Technical SKills</Button>
-                                    <Button type="link" className="navBtn" >Certifications</Button>
-                                    <Button type="link" className="navBtn" >Contact us</Button>
+                                    <Button type="link" className="navBtn" ><Link to="/" className='text-decoration-none'>Home</Link></Button>
+                                    <Button type="link" className="navBtn" ><Link to="/about" className='text-decoration-none'>About us</Link></Button>
+                                    <Button type="link" className="navBtn" ><Link to="/skills" className='text-decoration-none'>Technical Skills</Link></Button>
+                                    <Button type="link" className="navBtn" ><Link to="/resume" className='text-decoration-none'>Resume</Link></Button>
+                                    <Button type="link" className="navBtn" ><Link to="/contact" className='text-decoration-none'>Contact</Link></Button>
                                 </Space>
                             </div>
                             <div className="rightMenu">
-                                <Button type="primary" size={"large"} shape="default" className="px-3 border-0 text-center" style={{ fontSize: "14px", fontWeight: "700", borderRadius: "4px" }} >Contact Us</Button>
+                                <Button type="primary"
+                                    size={"large"}
+                                    shape="default"
+                                    className="px-3 border-0 text-center"
+                                    style={{ fontSize: "14px", fontWeight: "700", borderRadius: "4px" }}
+                                    onClick={this.downloadPDF}
+                                >
+                                    Download Resume
+                                </Button>
                             </div>
                             <Button className="barsMenu" type="" onClick={this.showDrawer}>
                                 <span className="barsBtn"></span><span className="barsBtnName">Menu</span>

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 .menuBar {
   padding: 0 20px;
   /* border-bottom: solid 1px #e8e8e8; */
@@ -146,4 +150,14 @@
 .ant-drawer-close .anticon {
   color: #ef5366 !important;
   font-size: 24px !important;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: #213363;
+  color: #fff;
+  cursor: pointer;
 }
