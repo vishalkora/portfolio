@@ -23,6 +23,8 @@ function ProjectOne() {
                                 className="mt-5 px-3 border-0 text-center"
                                 style={{ fontSize: "14px", fontWeight: "700", borderRadius: "4px" }}
                                 type='primary'
+                                target="_blank"
+                                href="https://www.tourwizonline.com/tourwizAI"
                             >
                                 Preview
                             </Button>

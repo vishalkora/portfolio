@@ -7,7 +7,7 @@ function ProtoType3() {
     return (
         <div className='mainSection' style={{ width: "400px" }}>
             <section id="about" class="about">
-                <div class="about-me container">
+                <div class="about-me container  pt-2">
                     <div class="row">
                         <div class="col-lg-12" data-aos="fade-right">
                             <div class="section-title">
