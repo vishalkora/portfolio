@@ -57,8 +57,7 @@ function About() {
                     </div>
 
                 </div>
-
-                <div class="counts container">
+                {/* <div class="counts container">
 
                     <div class="row">
 
@@ -322,7 +321,7 @@ function About() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
             </section>
 
         </div>

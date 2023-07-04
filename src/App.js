@@ -14,6 +14,8 @@ import TechnicalSkills from './component/techSkills';
 import ProjectOne from './component/projectOne';
 import ProjectTwo from './component/projectTwo';
 import ProjectThree from './component/projectThree';
+import ProjectStaticWebPage from './component/projectStaticWebPage';
+import ProjectKBCClone from './component/projectKBCClone';
 const { Header, Content, Footer } = Layout;
 const App = () => {
 
@@ -68,6 +70,12 @@ const App = () => {
             </Element>} />
             <Route path="/project-tourwizItineraryBuilder" element={<Element name="/project-tourwizItineraryBuilder">
               <ProjectThree />
+            </Element>} />
+            <Route path="/project-staticWebPage" element={<Element name="/project-staticWebPage">
+              <ProjectStaticWebPage />
+            </Element>} />
+            <Route path="/project-kbcClone" element={<Element name="/project-kbcClone">
+              <ProjectKBCClone />
             </Element>} />
           </Routes>
           <div className="scroll-to-top" onClick={scrollToTop}>
