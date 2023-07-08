@@ -11,14 +11,14 @@ function Contact() {
                         <p>Contact Me</p>
                     </div>
 
-                    <div class="row mt-2">
+                    <div class="row mt-5 mb-5">
 
                         <div class="col-md-6 d-flex align-items-stretch">
                             <div class="info-box">
                                 <i class="bx bx-map"></i>
                                 <i class="bi bi-geo-alt"></i>
                                 <h3>My Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Bapunagar, Ahmedabad, GJ India</p>
                             </div>
                         </div>
 
@@ -27,11 +27,11 @@ function Contact() {
                                 <i class="bi bi-share"></i>
                                 <h3>Social Profiles</h3>
                                 <div class="social-links">
-                                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://github.com/vishalkora" target='_blank' class="github"><i class="bi bi-github"></i></a>
+                                    <a href="https://medium.com/@Vishalkora" target='_blank' class="medium"><i class="bi bi-medium"></i></a>
+                                    <a href="https://stackoverflow.com/users/18223400/vishal-kora" target='_blank' class="stackOverflow"><i class="bi bi-stack-overflow"></i></a>
+                                    <a href="https://www.linkedin.com/in/vishalkora" target='_blank' class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://web.whatsapp.com/send?phone=919510175147&text=hello!" target='_blank' class="whatsapp"><i class="bi bi-whatsapp"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -40,14 +40,14 @@ function Contact() {
                             <div class="info-box">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Email Me</h3>
-                                <p>contact@example.com</p>
+                                <p><a href="mailto: vishalkora3665@gmail.com" className='text-decoration-none' style={{ color: "#213363" }}>vishalkora3665@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="col-md-6 mt-4 d-flex align-items-stretch">
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Me</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p><a href="tel:6031112298" className='text-decoration-none' style={{ color: "#213363" }}>+91 9510175147</a></p>
                             </div>
                         </div>
                     </div>

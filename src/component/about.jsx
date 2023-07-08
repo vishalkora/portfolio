@@ -26,32 +26,37 @@ function About() {
                             <div class="row">
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 May 1998</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Ahmedabad, Gujarat</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91-9510175147</span></li>
+
                                     </ul>
                                 </div>
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Msc(CA&IT)</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>vishalkora3665@gmail.com</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <p>
-                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                                I am a React.js developer with 1.6 years of experience, and I consider myself a fast learner. I have a strong background in designing and problem-solving, and I have worked as an experienced frontend developer at ClTech Solution, primarily focusing on the TourWiz product.
                             </p>
                             <p>
-                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                                I hold an MSc in Computer Science with a specialization in CA & IT from K. S. School of Business Management & Information Technology at Gujarat University Campus. I completed my degree from July 2020 to June 2022. Prior to that, I earned a BSc in Computer Science with a specialization in CA & IT from the same institution, from July 2017 to June 2020.
                             </p>
                             <p>
-                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                                In terms of certifications, I completed the Tech Kaushalya program at the Department of Computer Science Rollwala Computer Centre, Gujarat University, in February 2020. I also obtained a certification in Programming in C from Mudra Computer Education in September 2016.
+                            </p>
+                            <p>
+                                My skillset includes proficiency in HTML5, CSS3, and JavaScript, with a strong understanding of web development principles and best practices. I am knowledgeable about popular UI frameworks/libraries such as Ant Design (Antd), Bootstrap, and React.js, enabling me to create aesthetically pleasing and responsive user interfaces. I am experienced in utilizing React components, lifecycle methods, and state management with React Hooks and Redux. Additionally, I have worked with JSON for data interchange between the client and server, and I am familiar with cross-browser compatibility, accessibility standards, and web performance optimization techniques. Version control systems like GitHub and GitLab are also part of my repertoire
+                            </p>
+                            <p>
+                                During my tenure at ClTech Solution, I have contributed to the development and implementation of several important features in the Tourwiz product. Notable examples include the Package Module, Itinerary Builder, TourwizAI, CRM, and Reporting. I have also integrated external services and APIs, such as the ChatGPT API, to enhance the TourwizAI module and automate the creation of itineraries and packages. In my work, I have emphasized the creation of reusable components and optimized them for improved performance and maintainability. Collaboration with the backend development team has been crucial to ensuring seamless communication between the front-end and server-side components.
+                            </p>
+                            <p>
+                                Throughout the development cycle, I have actively participated in discussions with product managers, designers, and quality assurance professionals to gather requirements and provide technical insights. I have also engaged in code reviews and offered constructive feedback to uphold quality standards and adhere to best practices.
                             </p>
                         </div>
                     </div>

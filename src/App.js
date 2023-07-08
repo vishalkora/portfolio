@@ -43,7 +43,7 @@ const App = () => {
         <Content
           style={{
             padding: '0 50px',
-            backgroundColor: "#f4f0f4"
+            backgroundColor: "#f4f0f4",
           }}
         >
           <Routes>
