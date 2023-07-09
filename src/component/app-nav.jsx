@@ -4,7 +4,7 @@ import LeftMenu from './LeftMenu'
 import RightMenu from './RightMenu'
 import { Drawer, Button, Space, Col, Row, Menu } from 'antd';
 import { AppstoreOutlined, MailOutlined, DownOutlined, CloseOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import ProjectOne from './projectOne';
 import ProtoType1 from './protoType1';
 import ProtoType3 from './protoType3';
@@ -176,7 +176,7 @@ class Navbar extends Component {
                             <Drawer
                                 title={
                                     <div className='heroText'>
-                                        <label className=""><span>{`</>`}</span>VISHAL</label>
+                                        <a href='/'><label className=""><span>{`</>`}</span>VISHAL</label></a>
                                     </div>
                                 }
                                 placement="left"
@@ -188,7 +188,7 @@ class Navbar extends Component {
                                 autoFocus={true}
                             >
                                 <LeftMenu />
-                                <RightMenu />
+                                {/* <RightMenu /> */}
                             </Drawer>
 
                         </div>

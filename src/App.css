@@ -153,6 +153,11 @@ html {
   font-size: 24px !important;
 }
 
+.heroText a label {
+  color: #ef5366 !important;
+
+}
+
 .scroll-to-top {
   position: fixed;
   bottom: 20px;

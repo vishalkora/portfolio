@@ -16,6 +16,7 @@ import ProjectTwo from './component/projectTwo';
 import ProjectThree from './component/projectThree';
 import ProjectStaticWebPage from './component/projectStaticWebPage';
 import ProjectKBCClone from './component/projectKBCClone';
+import FooterApp from './component/footer';
 const { Header, Content, Footer } = Layout;
 const App = () => {
 
@@ -90,7 +91,7 @@ const App = () => {
           backgroundColor: "#f4f0f4"
         }}
       >
-        Ant Design ©2023 Created by Ant UED
+        <FooterApp />
       </Footer>
     </ConfigProvider>
   );
