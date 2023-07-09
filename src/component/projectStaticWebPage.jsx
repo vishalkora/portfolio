@@ -1,6 +1,5 @@
 import React from 'react';
 import img1 from "../assets/images/staticWPDesktop.png";
-import img2 from "../assets/images/staticWPMob.png";
 import { Button } from 'antd';
 
 function ProjectStaticWebPage() {

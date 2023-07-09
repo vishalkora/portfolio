@@ -8,7 +8,6 @@ import babel from "../assets/images/babel.svg";
 import Bootstrap from "../assets/images/bootstrap.svg";
 import api from "../assets/images/api.svg";
 import sql from "../assets/images/sql.svg";
-import responsive from "../assets/images/responsive.svg";
 import postman from "../assets/images/postman.svg";
 import wordpress from "../assets/images/wordpress.svg";
 import php from "../assets/images/php.svg";

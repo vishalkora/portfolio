@@ -182,7 +182,7 @@ class Navbar extends Component {
                                 placement="left"
                                 closable={true}
                                 onClose={this.onClose}
-                                visible={this.state.visible}
+                                open={this.state.visible}
                                 width="100%"
                                 closeIcon={<CloseOutlined />}
                                 autoFocus={true}
